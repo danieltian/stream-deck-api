@@ -74,7 +74,7 @@ class StreamDeck extends EventEmitter {
           reject(error);
         }
         else {
-          image.resize(ICON_SIZE, ICON_SIZE);
+          image.contain(ICON_SIZE, ICON_SIZE);
           image.flip(true, false);
           this.drawImageBuffer(image.bitmap.data, buttonNumber);
           resolve();
