@@ -1,4 +1,4 @@
-const streamDeckApi = require('./stream-deck-api');
+const streamDeckApi = require('./lib/stream-deck-api');
 
 let streamDeck = streamDeckApi.getStreamDeck();
 streamDeck.reset();

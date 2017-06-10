@@ -13,7 +13,7 @@
     "usb",
     "hid"
   ],
-  "main": "stream-deck-api.js",
+  "main": "lib/stream-deck-api.js",
   "scripts": {
     "start": "node index.js",
     "lint": "eslint ."
@@ -25,8 +25,10 @@
     "url": "git@github.com:danieltian/stream-deck-api.git"
   },
   "dependencies": {
+    "debounce": "^1.0.2",
     "jimp": "^0.2.28",
-    "node-hid": "^0.5.4"
+    "node-hid": "^0.5.4",
+    "object-hash": "^1.1.8"
   },
   "devDependencies": {
     "eslint": "^3.19.0"
