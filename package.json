@@ -1,6 +1,6 @@
 {
   "name": "stream-deck-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "API to interact with the Elgato Stream Deck controller",
   "keywords": [
     "elgato",
