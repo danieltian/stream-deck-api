@@ -13,6 +13,10 @@ streamDeck.on('up', (buttonNumber) => {
   streamDeck.drawColor(0x000000, buttonNumber);
 });
 
+streamDeck.on('state', (state) => {
+  console.log(state);
+});
+
 process.on('SIGINT', () => {
   streamDeck.reset();
   process.exit();
