@@ -1,6 +1,14 @@
 # Stream Deck API
 Stream Deck API is a library that allows you to interact with an Elgato Stream Deck controller.
 
+### NOTE: API is not stable and will not follow semver until version >=1.0.0. If you need a specific version, hard-lock it to an exact version for now (in `package.json`):
+
+```json
+"dependencies": {
+  "stream-deck-api": "0.0.4"
+}
+```
+
 ## Examples
 
 ### Detect Button Press
