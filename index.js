@@ -1,4 +1,4 @@
-const streamDeckApi = require('./lib/stream-deck-api')
+const streamDeckApi = require('.')
 
 let streamDeck = streamDeckApi.getStreamDeck()
 streamDeck.reset()
@@ -20,4 +20,4 @@ streamDeck.on('state', (state) => {
 process.on('SIGINT', () => {
   streamDeck.reset()
   process.exit()
-});
+})
